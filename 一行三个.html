@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  
+/* .card_wrap { 
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+.c_item {
+    flex: 1;
+    height: 120px;
+    margin: 0 5px 5px 0;
+    background-color: #999;
+    width: calc((100% - 10px) / 3);  
+    min-width: calc((100% - 10px) / 3);
+    max-width: calc((100% - 10px) / 3); 
+    
+ }
+
+ .c_item:nth-child(3n) {
+      margin-right: 0;
+    } */
+    .chartListUl{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    li{
+            width: 32%;
+            height: 300px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow:1px 2px 3px 3px #e2e1e1;   
+            background-color: pink;
+        }
+    .chartListUl:after{ 
+        content: "";
+        height: 0;
+        width: 32%;
+    }
+    </style>
+</head>
+<body>
+  
+    <div class="analysisTask">
+        <ul class="chartListUl">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+  </div>
+</body>
+</html>
